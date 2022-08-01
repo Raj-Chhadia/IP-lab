@@ -1,3 +1,5 @@
-a = [ 1 2 3; 2 3 4; 1 2 5]
-b = [ 2 1 3 ; 5 0 -2; 2 3 -1]
-prod = a .* b
+% 92000103073 - Raj Chhadia
+% special varaiable- ans and constant- pi
+sqrt(78)
+a = pi * 100;
+fprintf('%d',a);
