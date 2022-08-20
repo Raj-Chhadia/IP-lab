@@ -1,7 +1,5 @@
 % 92000103073 - Raj Chhadia
-
-a= 92000103000;
-b= 73;
-c=a+b;
-disp(b);
-fprintf('%d',c);
+x = [0 : 0.01: 10];
+y = sin(x);
+g = cos(x);
+plot(x, y, x, g, '.-'), legend('Sin(x)', 'Cos(x)')
