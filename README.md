@@ -1,5 +1,5 @@
 Programs done :
-Negative \n
+Negative
 log Transformation  
 power transformation
 thresholding
