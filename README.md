@@ -1,4 +1,6 @@
 Programs done :  
+Matrix operations  
+Vector operations  
 Negative  
 log Transformation    
 power transformation  
