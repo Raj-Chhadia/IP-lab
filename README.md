@@ -1,4 +1,6 @@
 Programs done :  
+Loops  
+Data Types  
 Matrix operations  
 Vector operations  
 Negative  
