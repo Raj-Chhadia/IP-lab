@@ -3,6 +3,7 @@ Loops
 Data Types  
 Matrix operations  
 Vector operations  
+Arrays  
 Negative  
 log Transformation    
 power transformation  
