@@ -18,7 +18,6 @@ c3= f2./(imfilter(NI1.^1,f,'replicate')+eps);
 imshow(c3);
 title('ContraHarmonic Mean Q=1');
 
-
 subplot(3,3,4);
 imshow(I);
 title('Original Image');
