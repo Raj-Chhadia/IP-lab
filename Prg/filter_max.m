@@ -1,6 +1,6 @@
 fprintf('92000103073 Raj Chhadia');
 I =imread('cameraman.tif');
-        NI = imnoise(I,'gaussian');
+        NI = imnoise(I,'salt & pepper');
         %NI1 = im2double(NI);
       f=[1,1,1;1,1,1;1,1,1];
         

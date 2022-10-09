@@ -14,7 +14,7 @@ title('Noisy Image');
 
 subplot(3,3,3);
 c2=imfilter(NI1.^(1+1),f,'replicate');
-c3= f2./(imfilter(NI1.^1,f,'replicate')+eps);
+c3= c2./(imfilter(NI1.^1,f,'replicate')+eps);
 imshow(c3);
 title('ContraHarmonic Mean Q=1');
 

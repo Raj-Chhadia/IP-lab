@@ -1,7 +1,7 @@
 %N4(P)
 I =imread('cameraman.tif');
 X = imnoise(I,'salt & pepper');
-f=1/9*[1,0,1;0,1,0;1,0,1];
+f=1/9*[0,1,0;1,1,1;0,1,0];
 
 Z=filter2(f,X);
     subplot(1,3,1);
