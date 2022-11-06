@@ -1,0 +1,16 @@
+fprintf('92000103073-Raj Chhadia');
+subplot(2, 2, 1);
+    I = imread('text.png');
+    imshow(I);
+    title('Original Image');
+subplot(2, 2, 2);
+    marker = false(size(I));
+    marker(13,50) = true;
+    marker(13,94) = true;
+    marker(13,150) = true;
+    imshow(marker);
+    title('Marker Image');
+subplot(2, 2, 3);
+    im = imreconstruct(marker,I);
+    imshow(im);
+    title('Restored Image');
